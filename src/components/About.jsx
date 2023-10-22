@@ -34,7 +34,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="w-full h-full pt-4 boxes cursor-pointer grayscale transition-transform transform image-main pl-24"
         >
-          <img src={Jummienew} alt="Olajumoke Ipoola" className="w-full h-full rounded-full" />
+          <img src={Jummienew} alt="Olajumoke Ipoola" className="w-full h-full rounded-full object-cover" />
         </motion.div>
       </motion.div>
     </>
